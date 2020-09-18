@@ -1,11 +1,11 @@
 Package: TimeticksR
-Title: What the Package Does (One Line, Title Case)
+Title: Transforms Timeticks format to Datetime and the other way around.
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "First",
-           family = "Last",
+    person(given = "Afonso Henrique",
+           family = "Machado",
            role = c("aut", "cre"),
-           email = "first.last@example.com",
+           email = "afonso.hbm@gmail.com",
            comment = c(ORCID = "YOUR-ORCID-ID"))
 Description: What the package does (one paragraph).
 License: MIT + file LICENSE
