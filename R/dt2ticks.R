@@ -5,10 +5,12 @@
 #'
 #' @param dt Datetime
 #'
-#' @return `double()`
+#' @return `character()`
 #' @export
 #'
-#' @example dt2ticks("2020/07/09 11:00:00") \n # "637299000000000000"
+#' @examples
+#' dt2ticks("2020/07/09 11:00:00")
+#' # "637299000000000000"
 #'
 dt2ticks <- function(dt){
   format(as.double.POSIXlt(dt) * 1e7 + 621355968000000000, scientific = FALSE)

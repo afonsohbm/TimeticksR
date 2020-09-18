@@ -15,3 +15,8 @@ ticks2dt(ticks)
 \description{
 Transforms Timeticks to Datetime format.
 }
+\examples{
+ticks2dt(637300138465420000)
+#"2020-07-10 21:37:26 GMT"
+
+}

@@ -10,8 +10,13 @@ dt2ticks(dt)
 \item{dt}{Datetime}
 }
 \value{
-\code{double()}
+\code{character()}
 }
 \description{
 Transforms Datetime to Timeticks format.
+}
+\examples{
+dt2ticks("2020/07/09 11:00:00")
+# "637299000000000000"
+
 }
